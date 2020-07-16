@@ -1,4 +1,4 @@
-# react-typing-animation
+# react-module-boilerplate
 Simple Webpack React NPM module boilerplate
 
 ### Support
