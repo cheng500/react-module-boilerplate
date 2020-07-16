@@ -6,8 +6,8 @@
   "scripts": {
     "flow": "flow",
     "start": "flow && webpack-dev-server --open --mode development --host 0.0.0.0 --config webpack.config.js",
-    "prepublishOnly": "flow && npm run build",
-    "build": "flow && webpack --mode=production --config webpack.prod.js",
+    "prepublishOnly": "build",
+    "build": "webpack --mode production --config webpack.prod.js",
     "dev": "flow && webpack-dev-server --open --mode development --host 0.0.0.0 --config webpack.dev.js"
   },
   "author": "",
