@@ -2,7 +2,7 @@ const path = require('path')
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: path.join(__dirname, 'demo/src/index.js'),
+  entry: path.join(__dirname, 'demo/js/index.js'),
   module: {
     rules: [{
       test: /\.(js|jsx)$/,
